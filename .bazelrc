@@ -1,0 +1,9 @@
+common
+  --enable_bzlmod=true
+  --registry="https://bcr.bazel.build"
+  --lockfile_mode=off
+  --experimental_enable_android_migration_apis
+  --experimental_google_legacy_api
+  --incompatible_java_common_parameters
+  --android_databinding_use_v3_4_args
+  --experimental_android_databinding_v2
